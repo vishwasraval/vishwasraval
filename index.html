@@ -26,10 +26,10 @@
           <li class="nav__item"><a href="#education" class="nav__link">Education</a></li>
           <li class="nav__item"><a href="#experience" class="nav__link">Experience</a></li>
           <li class="nav__item"><a href="#research" class="nav__link">Research</a></li>
+          <li class="nav__item"><a href="#awards" class="nav__link">Awards</a></li>
           <li class="nav__item"><a href="#publications" class="nav__link">Publications</a></li>
           <li class="nav__item"><a href="#reviewer" class="nav__link">Reviewer</a></li>
-          <li class="nav__item"><a href="#awards" class="nav__link">Awards</a></li>
-          <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+          <li class="nav__item"><a href="#references" class="nav__link">References</a></li>
         </ul>
         <div class="nav__close" id="nav-close"><i class="fas fa-times"></i></div>
       </div>
@@ -42,7 +42,6 @@
     <section class="hero section" id="home">
       <div class="hero__container container">
         <div class="hero__content">
-          <p class="hero__greeting">Namaste, I am</p>
           <h1 class="hero__title">Dr. Vishwas Raval</h1>
           <h2 class="hero__subtitle">
             Associate Professor &amp; Head<br />
@@ -50,26 +49,39 @@
             School of National Security Studies<br />
             Central University of Gujarat, Kundhela, Vadodara-391107
           </h2>
+          <p class="hero__email">
+            <a href="mailto:vishwas.raval@cug.ac.in"><i class="fas fa-envelope"></i> vishwas.raval@cug.ac.in</a>
+          </p>
           <p class="hero__description">
-            Academician · Researcher · Software Developer <br />
+            Academician · Researcher · Software Developer<br />
             Computer Vision · Data Science · Cyber Security · Machine Learning · भारतीय ज्ञान परंपरा (Indian Knowledge System - IKS)
           </p>
-          <div class="hero__ids">
-            <span><i class="fas fa-id-card"></i> SCOPUS: 36515427900</span>
-            <span><i class="fas fa-fingerprint"></i> ORCID: 0000-0003-4889-1466</span>
-            <span><i class="fas fa-flask"></i> WoS: AAE-8928-2020</span>
-            <span><i class="fas fa-id-card"></i>VIDWAN: 671942</span>
+          <div class="hero__profile-links">
+            <a href="https://www.scopus.com/authid/detail.uri?authorId=36515427900" target="_blank" rel="noopener" title="Scopus" aria-label="Scopus">
+              <i class="fas fa-book-open"></i><span>Scopus</span>
+            </a>
+            <a href="https://orcid.org/0000-0003-4889-1466" target="_blank" rel="noopener" title="ORCID" aria-label="ORCID">
+              <i class="fab fa-orcid"></i><span>ORCID</span>
+            </a>
+            <a href="https://www.webofscience.com/wos/author/record/AAE-8928-2020" target="_blank" rel="noopener" title="Web of Science" aria-label="Web of Science">
+              <i class="fas fa-flask"></i><span>WoS</span>
+            </a>
+            <a href="https://scholar.google.com/citations?user=rXSY32QAAAAJ&hl=en" target="_blank" rel="noopener" title="Google Scholar" aria-label="Google Scholar">
+              <i class="fas fa-graduation-cap"></i><span>Scholar</span>
+            </a>
+            <a href="https://vidwan.inflibnet.ac.in/profile/671942" target="_blank" rel="noopener" title="VIDWAN" aria-label="VIDWAN">
+              <i class="fas fa-id-badge"></i><span>VIDWAN</span>
+            </a>
+            <a href="https://github.com/vishwasraval" target="_blank" rel="noopener" title="GitHub" aria-label="GitHub">
+              <i class="fab fa-github"></i><span>GitHub</span>
+            </a>
+            <a href="https://www.youtube.com/@vishwasjraval" target="_blank" rel="noopener" title="YouTube" aria-label="YouTube">
+              <i class="fab fa-youtube"></i><span>YouTube</span>
+            </a>
           </div>
-          <div class="hero__social">
-            <a href="https://github.com/vishwasraval" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
-            <a href="https://www.youtube.com/@vishwasjraval" target="_blank" rel="noopener" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
-            <a href="https://scholar.google.com/citations?user=rXSY32QAAAAJ&hl=en" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
-            <a href="mailto:vishwas.raval@cug.ac.in" aria-label="Email"><i class="fas fa-envelope"></i></a>
-          </div>
-          <br></br>
           <div class="hero__buttons">
-            <a href="#contact" class="btn btn--primary">Get in Touch</a>
-            <a href="#research" class="btn btn--outline">View Research</a>
+            <a href="#research" class="btn btn--primary">View Research</a>
+            <a href="#publications" class="btn btn--outline">Publications</a>
           </div>
         </div>
         <div class="hero__visual">
@@ -105,7 +117,7 @@
               <p>Building tools for visually challenged, hard-of-hearing & speech-impaired users</p>
             </div>
             <div class="highlight-card">
-              <i class="fas fa-brain"></i>
+              <span class="om-icon" aria-hidden="true">ॐ</span>
               <h4>भारतीय ज्ञान परंपरा (Indian Knowledge System - IKS)</h4>
               <p>Exploring scientific heritage of India and integrating IKS with modern research</p>
             </div>
@@ -257,7 +269,9 @@
             <span class="res-card__tag">Patent Applied · 202621109845</span>
           </article>
           <article class="res-card">
-            <div class="res-card__icon"><i class="fas fa-mobile-alt"></i></div>
+            <div class="res-card__icon res-card__icon--img">
+              <img src="assets/icons/divydrishti.png" alt="Divy-Drishti" />
+            </div>
             <h3>Divy-Drishti App</h3>
             <p>Accessibility app for visually challenged, hard-of-hearing and speech-impaired people.</p>
             <a href="https://github.com/vishwasraval/Divy-Drishti-App" target="_blank" rel="noopener" class="res-card__link">GitHub ↗</a>
@@ -269,7 +283,7 @@
             <span class="res-card__tag">Design Reg. · 517605-001</span>
           </article>
           <article class="res-card">
-            <div class="res-card__icon"><i class="fas fa-lips"></i></div>
+            <div class="res-card__icon res-card__icon--text" aria-hidden="true">અ</div>
             <h3>Gujarati Lip Reading Dataset</h3>
             <p>Lip extraction algorithm & dataset for Gujarati alphabets recognition via lip movement (PhD Guide).</p>
             <a href="https://www.kaggle.com/datasets/vishwasjraval/gj-varna" target="_blank" rel="noopener" class="res-card__link">Kaggle ↗</a>
@@ -287,13 +301,15 @@
             <a href="https://github.com/vishwasraval/Drushti" target="_blank" rel="noopener" class="res-card__link">GitHub ↗</a>
           </article>
           <article class="res-card">
-            <div class="res-card__icon"><i class="fas fa-rupee-sign"></i></div>
+            <div class="res-card__icon res-card__icon--text" aria-hidden="true">₹</div>
             <h3>Indian Currency Dataset</h3>
             <p>Dataset for computer vision research on Indian currency recognition.</p>
             <a href="https://www.kaggle.com/datasets/vishwasjraval/indian-currency-dataset" target="_blank" rel="noopener" class="res-card__link">Kaggle ↗</a>
           </article>
           <article class="res-card">
-            <div class="res-card__icon"><i class="fas fa-server"></i></div>
+            <div class="res-card__icon res-card__icon--img">
+              <img src="assets/icons/cugms.png" alt="CUGMS" />
+            </div>
             <h3>CUGMS App</h3>
             <p>Visitor, student & employee movement tracking system at Central University of Gujarat security gate.</p>
           </article>
@@ -317,6 +333,31 @@
             <h3>ISRO & BISAG Projects</h3>
             <p>Return Link Subsystem for DVB-RCS hub (ISRO); GIS & Spatial Data Editing (BISAG).</p>
           </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Awards Section -->
+    <section class="awards section" id="awards">
+      <div class="container">
+        <h2 class="section__title">Awards & Achievements</h2>
+        <span class="section__subtitle">Recognition</span>
+        <div class="awards__grid">
+          <div class="award-card">
+            <div class="award-card__icon"><i class="fas fa-trophy"></i></div>
+            <h3>79,209-digit Probable Prime</h3>
+            <p>Ranked 137 worldwide · 2nd from India (August 2021)</p>
+          </div>
+          <div class="award-card">
+            <div class="award-card__icon"><i class="fas fa-graduation-cap"></i></div>
+            <h3>Research Frontiers in Computing Scholarship</h3>
+            <p>National University of Singapore (2011)</p>
+          </div>
+          <div class="award-card">
+            <div class="award-card__icon"><i class="fas fa-medal"></i></div>
+            <h3>Frame-Bust Protective Algorithm</h3>
+            <p>Awarded US$600 by IACSIT, Singapore (2009)</p>
+          </div>
         </div>
       </div>
     </section>
@@ -499,31 +540,6 @@
       </div>
     </section>
 
-    <!-- Awards Section -->
-    <section class="awards section" id="awards">
-      <div class="container">
-        <h2 class="section__title">Awards & Achievements</h2>
-        <span class="section__subtitle">Recognition</span>
-        <div class="awards__grid">
-          <div class="award-card">
-            <div class="award-card__icon"><i class="fas fa-trophy"></i></div>
-            <h3>79,209-digit Probable Prime</h3>
-            <p>Ranked 137 worldwide · 2nd from India (August 2021)</p>
-          </div>
-          <div class="award-card">
-            <div class="award-card__icon"><i class="fas fa-graduation-cap"></i></div>
-            <h3>Research Frontiers in Computing Scholarship</h3>
-            <p>National University of Singapore (2011)</p>
-          </div>
-          <div class="award-card">
-            <div class="award-card__icon"><i class="fas fa-medal"></i></div>
-            <h3>Frame-Bust Protective Algorithm</h3>
-            <p>Awarded US$600 by IACSIT, Singapore (2009)</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <!-- Invited Talks -->
     <section class="talks section">
       <div class="container">
@@ -557,53 +573,26 @@
       </div>
     </section>
 
-    <!-- Contact Section -->
-    <section class="contact section" id="contact">
+    <!-- References Section -->
+    <section class="references section" id="references">
       <div class="container">
-        <h2 class="section__title">Contact</h2>
-        <span class="section__subtitle">Get in Touch</span>
-        <div class="contact__content">
-          <div class="contact__info">
-            <div class="contact__card">
-              <i class="fas fa-envelope"></i>
-              <h3>Email</h3>
-              <a href="mailto:vishwas.raval@cug.ac.in">vishwas.raval@cug.ac.in</a>
-            </div>
-            <div class="contact__card">
-              <i class="fas fa-university"></i>
-              <h3>Affiliation</h3>
-              <p>Central University of Gujarat<br />Kundhela, Vadodara-391107<br />Gujarat, India</p>
-            </div>
-            <div class="contact__card">
-              <i class="fas fa-link"></i>
-              <h3>Profiles</h3>
-              <div class="contact__links">
-                <a href="https://github.com/vishwasraval" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a>
-                <a href="https://www.youtube.com/@vishwasjraval" target="_blank" rel="noopener"><i class="fab fa-youtube"></i> YouTube</a>
-                <a href="https://scholar.google.com/citations?user=rXSY32QAAAAJ&hl=en" target="_blank" rel="noopener"><i class="fas fa-graduation-cap"></i> Google Scholar</a>
-                <a href="https://www.cug.ac.in/faculty_profile/vishwas_raval.php" target="_blank" rel="noopener"><i class="fas fa-globe"></i> CUG Profile</a>
-              </div>
-            </div>
+        <h2 class="section__title">References</h2>
+        <span class="section__subtitle">Professional Endorsements</span>
+        <div class="refs__grid refs__grid--standalone">
+          <div class="ref-card">
+            <h4>Dr. Vaskar Raychoudhury</h4>
+            <p>Associate Professor, CSE<br />Miami University, Oxford, OH, USA</p>
+            <a href="mailto:raychov@MiamiOH.edu">raychov@MiamiOH.edu</a>
           </div>
-          <div class="contact__refs">
-            <h3>References</h3>
-            <div class="refs__grid">
-              <div class="ref-card">
-                <h4>Dr. Vaskar Raychoudhury</h4>
-                <p>Associate Professor, CSE<br />Miami University, Oxford, OH, USA</p>
-                <a href="mailto:raychov@MiamiOH.edu">raychov@MiamiOH.edu</a>
-              </div>
-              <div class="ref-card">
-                <h4>Prof. Apurva Shah</h4>
-                <p>Professor, CSE<br />The MS University of Baroda</p>
-                <a href="mailto:apurva.shah-cse@msubaroda.ac.in">apurva.shah-cse@msubaroda.ac.in</a>
-              </div>
-              <div class="ref-card">
-                <h4>Prof. Anjali Jivani</h4>
-                <p>Professor, CSE<br />The MS University of Baroda</p>
-                <a href="mailto:anjali.jivani-cse@msubaroda.ac.in">anjali.jivani-cse@msubaroda.ac.in</a>
-              </div>
-            </div>
+          <div class="ref-card">
+            <h4>Prof. Apurva Shah</h4>
+            <p>Professor, CSE<br />The MS University of Baroda</p>
+            <a href="mailto:apurva.shah-cse@msubaroda.ac.in">apurva.shah-cse@msubaroda.ac.in</a>
+          </div>
+          <div class="ref-card">
+            <h4>Prof. Anjali Jivani</h4>
+            <p>Professor, CSE<br />The MS University of Baroda</p>
+            <a href="mailto:anjali.jivani-cse@msubaroda.ac.in">anjali.jivani-cse@msubaroda.ac.in</a>
           </div>
         </div>
       </div>
