@@ -99,6 +99,11 @@ vishwas-raval-portfolio/
 Email: [vishwas.raval@cug.ac.in](mailto:vishwas.raval@cug.ac.in)  
 GitHub: [github.com/vishwasraval](https://github.com/vishwasraval)  
 ORCID: [0000-0003-4889-1466](https://orcid.org/0000-0003-4889-1466)
+Scopus: [36515427900] (https://www.scopus.com/authid/detail.uri?authorId=36515427900)
+WoS: [AAE-8928-2020] (https://www.webofscience.com/wos/author/record/AAE-8928-2020)
+Google Scholar: [rXSY32QAAAAJ] (https://scholar.google.com/citations?user=rXSY32QAAAAJ&hl=en)
+Vidwan: [671942] (https://vidwan.inflibnet.ac.in/profile/671942)
+YouTube: [vishwasjraval] (https://www.youtube.com/@vishwasjraval)
 
 ---
 
