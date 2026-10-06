@@ -3,7 +3,7 @@
 A clean, modern, responsive academic portfolio website built from the curriculum vitae of **Dr. Vishwas Raval**.
 
 **Associate Professor & Head**, Department of Strategic Technologies, School of National Security Studies  
-**CISO & ICT Chairperson**, Central University of Gujarat
+**CISO**, Central University of Gujarat
 
 ---
 
