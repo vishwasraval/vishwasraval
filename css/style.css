@@ -856,6 +856,79 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
   color: var(--primary);
   margin-bottom: 1.5rem;
 }
+/* ===== Poetry & Experiences ===== */
+.poetry-experiences { background: var(--bg); }
+.pe-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.75rem;
+  align-items: stretch;
+}
+.pe-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  min-height: 520px;
+}
+.pe-card__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 1rem 1.25rem;
+  border-bottom: 1px solid var(--border);
+  background: linear-gradient(135deg, rgba(28, 50, 79, 0.04), rgba(230, 81, 0, 0.04));
+}
+.pe-card__header h3 {
+  font-size: 1.1rem;
+  color: var(--primary);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0;
+}
+.pe-card__header h3 i { color: var(--accent); }
+.pe-card__open {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--primary-light);
+  white-space: nowrap;
+}
+.pe-card__open:hover { color: var(--accent); }
+.pe-card__viewer {
+  flex: 1;
+  position: relative;
+  min-height: 460px;
+  background: #f1f4f9;
+}
+.pe-card__viewer iframe {
+  width: 100%;
+  height: 100%;
+  min-height: 460px;
+  border: 0;
+  display: block;
+  background: #fff;
+}
+.pe-card__fallback {
+  display: none;
+  padding: 1rem 1.25rem;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  text-align: center;
+}
+.pe-card__fallback a { color: var(--primary-light); font-weight: 600; }
+
+@media (max-width: 900px) {
+  .pe-grid { grid-template-columns: 1fr; }
+  .pe-card,
+  .pe-card__viewer,
+  .pe-card__viewer iframe { min-height: 420px; }
+}
+
 .references { background: var(--bg-alt); }
 .refs__grid {
   display: grid;
